@@ -8,9 +8,6 @@ class Appointment
     Appointment.new(date = [], patient, doctor)
     @@all << self
   end
-    
-  
-  
   
   def self.all
     @@all
